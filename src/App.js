@@ -1,5 +1,7 @@
-export default function App() {
-  return (
-    <h1>Working</h1>
-  );
-}
+import Tetris from "./components/Tetris";
+
+const App = () => (
+  <Tetris />
+);
+
+export default App;
