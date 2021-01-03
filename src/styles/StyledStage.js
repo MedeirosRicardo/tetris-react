@@ -8,5 +8,5 @@ export const StyledStage = styled.div`
   border: 2px solid #333;
   width: 100%;
   max-width: 25vw;
-  backbround: #111;
+  background: #111;
 `;
