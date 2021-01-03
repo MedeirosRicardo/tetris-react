@@ -2,7 +2,7 @@ import Cell from './Cell';
 
 const Stage = ({ stage }) => (
   <div>
-    <Cell />
+    {stage.map(row => row.map((cell, index) => <Cell key={`cell-${index}`} type={cell[0]} />))}
   </div>
 );
 
